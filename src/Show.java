@@ -45,7 +45,7 @@ public class Show {
         }
         else {
             for (int i = 0; i < listOfActors.size(); i++) {
-                if (listOfActors.get(i).surname.equals(oldSurname)){
+                if (listOfActors.get(i).getSurname().equals(oldSurname)){
                     index = i;
                     count = count + 1;
                 }
